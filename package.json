@@ -13,6 +13,7 @@
   "author": "Chandan Yadav",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -21,11 +22,14 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.9",
     "@types/express": "^4.17.9",
     "@types/node": "^14.14.16",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.6",
+    "@types/socket.io": "^2.1.12",
+    "@types/socket.io-client": "^1.4.34",
     "@types/styled-components": "^5.1.7",
     "@types/uuid": "^8.3.0",
     "@types/webpack": "^4.41.25",
