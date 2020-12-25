@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A video chat application built using native webRTC api",
   "main": "index.ts",
+  "proxy": "http://localhost:3000",
   "scripts": {
     "app": "webpack serve",
     "server": "NODE_ENV=production nodemon",
@@ -18,6 +19,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "socket.io": "^3.0.4",
+    "socket.io-client": "^3.0.4",
     "styled-components": "^5.2.1",
     "uuid": "^8.3.2"
   },
